@@ -1,0 +1,93 @@
+body{
+    margin: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+}
+
+.banner{
+    background-image: linear-gradient(to left, lightblue, lightskyblue, #2263c3);
+    color: black;
+    padding: 1rem;    
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nome, .email{
+    font-weight: bold;
+}
+
+#nome, #email{
+    width: 20rem;
+    height: 1.5rem;
+}
+
+#perguntadecomparecimento{
+    background-color: rgba(0,0,0,0.40);
+    height: 2rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid #313131;
+    border-radius: 4px;
+    transition: transform 0.5s;
+}
+
+#perguntadecomparecimento:hover{
+    transform: scale(1.05);
+    border-color: #FFF;
+}
+
+.radio {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    width: 10rem;
+    height: 1rem;
+}
+
+.defina{
+    color: #FFF;
+    font-size: 18px;
+}
+
+#poucoemuito{
+    font-weight: bold;    
+}
+
+input[type="range"]{
+    width: 10%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 15px;
+    border-radius: 5px;  
+    background: #DFDFDF;
+    opacity: 0.7;    
+}
+
+.mensagem{
+    font-weight: bold;
+    margin-left: 0.3%;
+} 
+
+#msg{
+    width: 40rem;
+    height: 5rem;
+    margin-left: 0.1%; 
+}
+
+.button{
+    background: #016ABC;
+    color: #fff;
+    border: 0.1rem solid #eee;
+    border-radius: 0.4rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #eee;
+    text-shadow: none;
+    cursor: pointer;
+    text-align: center;
+    width: 5rem;
+    height: 1.5rem;
+    margin-left: 20%;
+}
